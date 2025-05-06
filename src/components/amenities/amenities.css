@@ -1,0 +1,21 @@
+.card-img{
+    width: 300px;
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* For responsiveness */
+  }
+  .card-body {
+    
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 900px;
+    text-align: center;
+  }
